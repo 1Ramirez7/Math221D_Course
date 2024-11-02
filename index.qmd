@@ -6,8 +6,6 @@ format: html
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-vgjgvhvmjhvb 
-
 
 
 ## An Interactive Textbook
