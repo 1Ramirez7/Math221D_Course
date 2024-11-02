@@ -1,13 +1,13 @@
 ---
 title: "BYU-Idaho Math 221: Introduction to Statistics in R"
+format: html
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-hvjhvjh
+vgjgvhvmjhvb 
 
-hh
 
 
 ## An Interactive Textbook
