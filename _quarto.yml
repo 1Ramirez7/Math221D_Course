@@ -105,7 +105,8 @@ website:
     - text: "Semester Project"
       menu:
         - href: ./6-Semester_Project/Semester_Project_Instructions.qmd
-
+        - href: ./6-Semester_Project/Semester_Project_Template.qmd
+        - href: ./6-Semester_Project/Importing_Data.qmd
 
     - text: "R Help"
       menu:

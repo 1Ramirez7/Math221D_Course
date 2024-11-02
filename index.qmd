@@ -6,9 +6,8 @@ format: html
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
-
-## An Interactive Textbook
+test
+## An Interactive Textbook 
 
 This course is intended to familiarize students with foundational concepts and vocabulary in statistics and introduce basic data wrangling and visualization in R.
 
