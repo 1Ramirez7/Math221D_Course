@@ -5,6 +5,10 @@ title: "BYU-Idaho Math 221: Introduction to Statistics in R"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+hvjhvjh
+
+hh
+
 
 ## An Interactive Textbook
 
