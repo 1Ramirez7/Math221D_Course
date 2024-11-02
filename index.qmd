@@ -1,12 +1,23 @@
 ---
 title: "BYU-Idaho Math 221: Introduction to Statistics in R"
 format: html
+execute:
+  cache: true
 ---
+
+```{r cache=FALSE, include=FALSE}
+# Check modification time of _quarto.yml to invalidate cache when it changes
+yml_time <- file.info("_quarto.yml")$mtime
+print(yml_time)  # This line ensures Quarto detects changes in the file
+```
+
+
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-test
 ## An Interactive Textbook 
 
 This course is intended to familiarize students with foundational concepts and vocabulary in statistics and introduce basic data wrangling and visualization in R.

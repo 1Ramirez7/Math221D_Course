@@ -123,7 +123,7 @@ website:
         - href: ./2-Tidy_Data/03-Select.qmd
         - href: ./2-Tidy_Data/Bonus_Mutate.qmd
         - href: ./2-Tidy_Data/Bonus_GroupBy_Summarise.qmd
-        - href: ./6-Semester_Project/Importing_Data.qmd
+#         - href: ./6-Semester_Project/Importing_Data.qmd
 
 
 format:  
