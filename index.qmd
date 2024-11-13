@@ -11,6 +11,7 @@ yml_time <- file.info("_quarto.yml")$mtime
 print(yml_time)  # This line ensures Quarto detects changes in the file
 ```
 
+.
 
 
 ```{r setup, include=FALSE}
