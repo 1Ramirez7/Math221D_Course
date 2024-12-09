@@ -123,9 +123,9 @@ website:
         - href: ./2-Tidy_Data/01-Wrangling_Basics.qmd
         - href: ./2-Tidy_Data/02-Filter.qmd
         - href: ./2-Tidy_Data/03-Select.qmd
-        - href: ./2-Tidy_Data/Bonus_Mutate.qmd
-        - href: ./2-Tidy_Data/Bonus_GroupBy_Summarise.qmd
-        - href: ./6-Semester_Project/Importing_Data.qmd
+        # - href: ./2-Tidy_Data/Bonus_Mutate.qmd
+        # - href: ./2-Tidy_Data/Bonus_GroupBy_Summarise.qmd
+        # - href: ./6-Semester_Project/Importing_Data.qmd
 
 
 format:  
