@@ -1,0 +1,15 @@
+{
+  "hash": "92220309521b30ce2a28b218d72ad857",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Semester Project\"\nauthor: \"your name\"\nwarning: false\n---\n\n\n\n\n\n# Introduction\n\n\n\n# Design the Study\n\n\n\n# Collect the Data\n\n\n\n# Describe/Summarize the Data\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(mosaic)\nlibrary(rio)\nlibrary(ggplot2)\n\n# Be sure to make this using ggplot()\n```\n:::\n\n\n\n\n\n# Make Inference\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Perform the appropriate test for the data selected\n```\n:::\n\n\n\n\n# Conclusion (Take Action)\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

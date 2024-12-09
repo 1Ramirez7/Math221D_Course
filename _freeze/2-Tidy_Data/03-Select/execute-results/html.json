@@ -1,0 +1,17 @@
+{
+  "hash": "03305218db2ff41e767a61130250108f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"select()\"\n---\n\n\n\n\n\n\n\n# Selecting Columns\n\nConsider the High School survey data with 60 columns and 312 respondents.  \n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Load libraries and data\n\nlibrary(rio)\nlibrary(mosaic)\nlibrary(tidyverse)\nlibrary(car)\n\nsurvey <- import('https://github.com/byuistats/Math221D_Cannon/raw/master/Data/HighSchoolSeniors_subset.csv') %>% tibble()\n```\n:::\n\n\n\n\nIt is likely that we are not interested in analyzing every column in this dataset.  Many may even be useless.  We can use the tidyverse function, `select()` to create a subset of the columns that we are primarily interested in.  \n\nRecall that we can \"pipe\" the raw data into tidy functions using `%>%`.  Suppose we want to see if there are differences in reaction times (`Reaction_time`) for left-handed and right-handed students.  We could create a more manageable dataset with only the columns of interest:\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsurvey %>%\n  select(Handed, Reaction_time)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 312 × 2\n   Handed       Reaction_time\n   <chr>                <dbl>\n 1 Left-Handed          0.349\n 2 Right-Handed         0.358\n 3 Right-Handed         0.447\n 4 Right-Handed         0.438\n 5 Left-Handed          0.542\n 6 Right-Handed         0.428\n 7 Ambidextrous         0.258\n 8 Right-Handed         0.427\n 9 Right-Handed         0.412\n10 Right-Handed         0.346\n# ℹ 302 more rows\n```\n\n\n:::\n:::\n\n\n\n\n\n\n<div class=\"QuestionsHeading\">Combining Tidy Functions</div>\n<div class=\"Questions\">\n\n1. Click to see how to [filter](../2-Tidy_Data/02-Filter.qmd) out Ambitextrous participants and reaction time outliers (reaction times less than 1 seconds):\n\n<details>\n<summary>Click to see</summary>\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nclean <- survey %>%\n  filter(Handed != \"Ambidextrous\",\n         Reaction_time < 1) %>%\n  select(Handed, Reaction_time)\n\nboxplot(clean$Reaction_time ~ clean$Handed, col = c(2,3), ylab = \"Reaction Times\", xlab=\"\", main = \"Distribution of Reaction times for \\n Left and Right-hand Dominance\")\n```\n\n::: {.cell-output-display}\n![](03-Select_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n\n\nWhich hand dominance appears to have quicker reaction times?\n\n</details>\n\n</div>\n",
+    "supporting": [
+      "03-Select_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "42f123b8c55e9da24be902be21057b2b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"CLT Practice\"\nsubtitle: \"Practice Problems\"\n---\n\n\n\n\n\n\n\n# Instructions\n\nAnswer the following questions, render the document and submit the `.html` report.\n\n# Questions\n\nSuppose you take a sample of size $n=5$ from a right skewed distribution with a population mean, $\\mu=125$ and a standard deviation, $\\sigma=12$\n\n__Question__: What is the mean of the distribution of sample means ($\\mu_{\\bar{x}}$)?  \n__Answer__:\n\n__Question__: What is the standard deviation of sample means ($\\sigma_{\\bar{x}}$)?  \n__Answer__:\n\n__Question__:  What is the *shape* of the distribution of sample means and why?  \n__Answer__:\n\n\nNow suppose you increase the sample size to $n=100$.  What is:\n\n__Mean of sample means__:  \n__Standard deviation of sample means__:  \n__Shape of the distribution of sample means__:  \n\n\nDescribe the difference between the Law of Large Numbers and the Central Limit Theorem.  \n__Answer__:  \n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

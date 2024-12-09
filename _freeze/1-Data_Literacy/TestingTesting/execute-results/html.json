@@ -1,0 +1,17 @@
+{
+  "hash": "84ac433de31a25b79ac3a188ecaf0b3c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Testing...Testing...1...2...3\"\nauthor: \"[your name]\"\n---\n\n\n\n# Introduction\n\nThis type of file is called a \"markdown\" file.  Markdown is like Microsoft Word but much more powerful.  This file is made specifically for creating fancy reports and has a file type `.qmd` meaning \"Quarto Markdown\".  \n\nYou will become very familiar with these files throughout the semester.  For now, it's only necessary to download this file, save it in a sensible folder on your computer or OneDrive, and \"run\" it. \n\nClicking on the \"Render\" button above will create an `.html` document that should open up in your default browser.  This `.html` document will be created and saved in the same location as this `TestingTesting.qmd` document.  \n\n__NOTE__:  If this document is in your `Downloads` folder, that is also where the `html` file will appear.  \n\nAs you see, we can make section headers and type regular text.  But the power of `.qmd` files is that we can code inside these documents and present our output directly within the document.\n\nClick \"Render\" to test to see if your software is set up.  \n\nWhen coding, we have to tell the computer when we're writing text and when we expect it to compile code.  Below is an example of a \"code chunk\" that creates a made up graph.\n\nYou do __not__ have to understand this right now.  We're only testing that R and RStudio are set up correctly.  \n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- seq(0,10, length = 100)\ny <- 2+exp(x)\n\nplot(x,y, type = \"l\", lwd=2, col=\"darkblue\", main = \"Exponential Function\")\n```\n\n::: {.cell-output-display}\n![](TestingTesting_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "TestingTesting_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

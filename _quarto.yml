@@ -6,6 +6,8 @@ project:
     - "!Student_Work/"
   resources:
     - "Images/**"
+  
+freeze: auto
     
 website:
   title: "Math221 Notebook"

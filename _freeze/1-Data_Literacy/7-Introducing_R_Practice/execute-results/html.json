@@ -1,0 +1,15 @@
+{
+  "hash": "3226bde58749f5112201e0ca118e9590",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Summarizing Data - One Group'\nsubtitle: 'Summarizing Quantitative Data'\n---\n\n\n\n\n\n\n# Introduction\n\nIn these document, we explore 2 datasets.  The first is data collected on the duration and the time between geyser eruptions at Old Faithful in Yellowstone National park.  The second is data collected about expressions of gratitude and their impact on subjective well-being.  \n\nFor each dataset, you will create numerical and visual summaries of the data.  \n\n\n# Load libraries and Data\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(rio)\nlibrary(mosaic)\nlibrary(tidyverse)\nlibrary(car)\n\n\nold_faithful <- rio::import(\"https://byuistats.github.io/M221R/Data/old_faithful.xlsx\")\n\ngratitude <- rio::import(\"https://byuistats.github.io/M221R/Data/gratitude.xlsx\")\n```\n:::\n\n\n\n\n\n# Old Faithful\n\n## Calculate the Summary Statistics for Duration\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\nWhat is the mean duration time of Old Faithful eruptions?\n\nWhat is the standard deviation of duration?\n\n\n## Create a Historgram for Duration\n\nCreate a histogram and describe the shape of the distribution of duration:\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n## Calculate Summary Statistics for Wait time\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n__Question__: What is the mean wait time between eruptions?  \n__Answer__: \n\n__Question__: What is the maximum wait time between eruptions?  \n__Answer__:  \n\n__Question__: The middle 50% of wait times will be between what 2 numbers?  \n__Answer__:  \n\n\n# Gratitude\n\nIn this dataset, there is a column called `treatment` which has the group designation, and a single column called `happiness` which is the self-reported happiness score for the participants in the sample.  \n\nData are often organized this way.  In the [next lesson](https://byuistats.github.io/Math221D_Course/1-Data_Literacy/8-Summarizing_Data_Multiple_Groups.html), we will learn how to break down data summaries for different groups.  For now, let's get a sense for the distribution of self-reported happiness scores for everyone in the study, regardless of treatment group.  \n\nCreate a summary statistics table and answer the questions below:\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n__Question__: What is the maximum self-reported happiness score?  \n__Answer__:  \n\n\n__Question__: What is the standard deviation of happiness scores?  \n__Answer__:  \n\n__Question__: In your own words, explain what the standard deviation means in context of this problem:  \n__Answer__:  \n\n## Histogram\n\nCreate a histogram of happiness scores:\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n__Question__: What is the general shape of the distribution?  \n__Answer__:  \n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

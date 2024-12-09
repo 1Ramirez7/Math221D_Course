@@ -1,0 +1,15 @@
+{
+  "hash": "3534b7d02710651edabe0f0c398ccf4f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Distribution of P-hat Practice\"\n---\n\n\n\n\n\n\n\n# Instructions\n\nComplete the following questions about the sampling distribution of $\\hat{p}$.  When completed, Render the `qmd` file and submit the `html`.\n\n# Questions\n\n__Question__: When can we use the normal distribution to approximate the sampling distribution of $\\hat{p}$?  \n__Answer__:  \n\n__Question__:  What is the mean of the sampling distribution of $\\hat{p}$?  \n__Answer__:  \n\n__Question__:  What is the standard deviation of the sampling distribution of $\\hat{p}$?  \n__Answer__:  \n\n\nSuppose the true *population* proportion, $p$, of people who support a candidate for office is 52\\%.  We would like to learn something about a *sample* proportion, $\\hat{p}$, with a sample size $n=1000$ suggesting that the candidate will lose the election ($\\hat{p}<0.50$).\n\nUse the following R code to answer the questions below:  \n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nphat <- \np <-\nn <- \n\nsigma_phat <- sqrt(p*(1-p)/n)  \n```\n\n::: {.cell-output .cell-output-error}\n\n```\nError: object 'p' not found\n```\n\n\n:::\n\n```{.r .cell-code}\nz <- (phat-p) / sigma_phat\n```\n\n::: {.cell-output .cell-output-error}\n\n```\nError: object 'phat' not found\n```\n\n\n:::\n\n```{.r .cell-code}\n# Left Tail:\npnorm()\n```\n\n::: {.cell-output .cell-output-error}\n\n```\nError in pnorm(): argument \"q\" is missing, with no default\n```\n\n\n:::\n\n```{.r .cell-code}\n# Right tail\n1-pnorm()\n```\n\n::: {.cell-output .cell-output-error}\n\n```\nError in pnorm(): argument \"q\" is missing, with no default\n```\n\n\n:::\n:::\n\n\n\n\n__Question__:  What is the $z$-score associated with $\\hat{p}<0.5$?  \n__Answer__:\n\n\n__Question__:  What is the standard deviation of $\\hat{p}$?  \n__Answer__:  \n\n\n__Question__:  What is the probability of a sample of size $n=1000$ suggesting that the candidate will lose even if the true population support, $p=0.52$?  \n__Answer__:  \n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "28d7b7a38453c7bfec9d8e79eb242079",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"2-Sample Proportion Practice\"\n---\n\n\n\n\n\n\n\n# Instructions\n\nComplete the following questions about testing differences between 2 proportions.  When completed, Render the `qmd` file and submit the `html`.\n\n# A Penny Saved?\n\nA random sample of BYU-Idaho students was surveyed and asked if they were in favor of retaining the penny as a form of currency in the United States. Out of the 116 women surveyed, 80 said that they were in favor of retaining the penny as a form of currency. Of the 137 men surveyed, 91 said that they were in favor of retaining the penny. For these questions, let group 1 represent women and group 2 represent men. \n\n__Question__:  Are the requirements satisfied for assuming normality?  Explain.  \n__Answer__:  \n\n\nRegardless of whether or not the requirements are satisfied, complete the following:  \n\n## Confidence Interval\n\nCreate a 95\\% confidence interval for the difference in the proportion of females to males who prefer to keep the penny:\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n__Question__:  Interpret the confidence interval in context of the question:  \n__Answer__:  \n\n\n## Hypothesis Test\n\nYou also want to see if there is a difference between the proportion of women who want to keep the penny and the proportion of men who want to keep the penny. Use a level of significance of $\\alpha = 0.05$.\n\nState your null and alternative hypotheses:  \n\n$$H_0: p_{female}???p_{male}$$  \n$$H_a: p_{female}???p_{male}$$  \n\n__Question__:  What is the test statistic?  \n__Answer__:  \n\n\n__Question__:  What is the P-value?  \n__Answer__:  \n\n\n__Question__:  Based on your decision rule, state your conclusion in context of the problem:  \n__Answer__:  \n\n\n# Couples Retreat?\n\nA marriage counselor conducted a study of couples, categorizing each of the couples as \"communicative\" or \"non-communicative\". Among other things, the counselor wanted to see whether the percentage of communicative couples whose marriage ended in separation or divorce was the same as the percentage of non-communicative couples whose marriage ended in separation or divorce. \n\n## Hypothesis Test\n\nConstruct a null and alternative hypothesis for the study:\n\n$$H_0: $$  \n$$H_a: $$  \n\nPerform the appropriate analysis:  \n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n__Question__:  What is the test statistic?  \n__Answer__:  \n\n\n__Question__:  What is the P-value?  \n__Answer__:  \n\n\n__Question__:  Based on your decision rule, state your conclusion in context of the problem:  \n__Answer__:  \n\n\n## Confidence Interval\n\nCreate a 95\\% confidence interval for the difference in the proportion of divorces between communicative and non-communicative couples:\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n__Question__:  Interpret the confidence interval in context of the question:  \n__Answer__:  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
